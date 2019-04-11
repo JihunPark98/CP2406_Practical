@@ -1,5 +1,5 @@
 import javax.swing.JOptionPane;
-class CommentsDialog
+public class CommentsDialog
 {
     public static void main(String[] args)
     {

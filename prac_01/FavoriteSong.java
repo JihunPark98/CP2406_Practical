@@ -1,4 +1,4 @@
-class FavoriteSong
+public class FavoriteSong
 {
     public static void main(String[] args)
     {
