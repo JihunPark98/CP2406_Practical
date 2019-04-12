@@ -1,6 +1,6 @@
 public class Percentages
 {
-    public static void main (String args[])
+    public static void main (String[] args)
     {
         double num1 = 2.0, num2 = 5.0;
         computePercent(num1, num2);

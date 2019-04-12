@@ -1,13 +1,13 @@
 import java.util.Scanner;
 public class NumbersDemo2
 {
-    public static void main (String args[])
+    public static void main(String[] args)
     {
-        Scanner kb = new Scanner(System.in);
         int num1, num2;
-        System.out.print("Enter an integer >> ");
+        Scanner kb = new Scanner(System.in);
+        System.out.print("Enter num1");
         num1 = kb.nextInt();
-        System.out.print("Enter another integer >> ");
+        System.out.print("Enter num2");
         num2 = kb.nextInt();
         displayTwiceTheNumber(num1);
         displayNumberPlusFive(num1);
@@ -18,13 +18,13 @@ public class NumbersDemo2
     }
     public static void displayTwiceTheNumber(int n)
     {
-        final int FACTOR = 2;
-        System.out.println(n + " times " + FACTOR + " is " + (n * FACTOR));
+        final int x = 2;
+        System.out.println(n + " times " + x + " is " + (n * x));
     }
     public static void displayNumberPlusFive(int n)
     {
-        final int FACTOR = 5;
-        System.out.println(n + " plus " + FACTOR + " is " + (n + FACTOR));
+        final int x = 5;
+        System.out.println(n + " plus " + x + " is " + (n + x));
     }
     public static void displayNumberSquared(int n)
     {
